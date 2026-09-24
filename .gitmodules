@@ -1,0 +1,12 @@
+[submodule "themes/adritian"]
+	path = themes/adritian
+	url = https://github.com/zetxek/adritian-free-hugo-theme.git
+[submodule "themes/careercanvas"]
+	path = themes/careercanvas
+	url = https://github.com/felipecordero/careercanvas.git
+[submodule "themes/kiyomi"]
+	path = themes/kiyomi
+	url = https://github.com/mathscantor/hugo-theme-kiyomi-portfolio.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
