@@ -1,0 +1,26 @@
+name: "Grégoire Aubertin"
+title: "PhD Student"
+summary: >
+  I am a PhD Student in computer science. My thesis, "Detection of
+  Regular Patterns in Static-Affine Programs using Artificial Intelligence",
+  focuses on programs whose control flow and memory accesses can be described by
+  affine expressions.
+  My current work addresses **program equivalence**: deciding whether two programs compute
+  the same result despite syntactic differences. I use **equality saturation**, a technique
+  that builds an **e-graph**, that allow us to have a compact data structure able to represent 
+  a large set of equivalent programs at once.
+affiliation: "*Polyhedral Compilation*, *Program Equivalence*, and *Machine Learning*"
+profile_image: "images/profile.jpg"
+profile_layout: "classic" # Options: "modern" or "classic"
+profile_image_style: "rectangle" # Options: "circle" or "rectangle"
+
+list:
+  - "Polyhedral Model"
+  - "Equality Saturation"
+  - "LLM Development for Program Equivalence"
+
+links:
+  #- label: "Github"
+  #  url: "https://github.com/Yajie-Xu/hugo-celadon"
+  #- label: "Google Scholar"
+  #  url: "#"
