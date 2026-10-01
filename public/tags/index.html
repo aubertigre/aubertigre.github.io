@@ -1,244 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+  <head><script src="/hugo-celadon/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-celadon/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tags | Grégoire Aubertin</title>
+<meta name="description" content="Detecting regular patterns in static affine programs.">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <title>Tags · johndoe</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#7DA2A9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1C1C1E" media="(prefers-color-scheme: dark)">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-
-
-<meta name="author" content="John Doe">
-<meta name="description" content="John Doe&#39;s personal website">
-<meta name="keywords" content="blog,developer,personal">
-
-
-
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Tags">
-	<meta name="twitter:description" content="John Doe&#39;s personal website">
-
-<meta property="og:url" content="http://localhost:1313/tags/">
-	<meta property="og:site_name" content="johndoe">
-	<meta property="og:title" content="Tags">
-	<meta property="og:description" content="John Doe&#39;s personal website">
-	<meta property="og:locale" content="en">
-	<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="/hugo-celadon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="/hugo-celadon/favicon.svg">
+<link rel="shortcut icon" href="/hugo-celadon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/hugo-celadon/apple-touch-icon.png">
+<link rel="manifest" href="/hugo-celadon/site.webmanifest">
 
 
+<link rel="stylesheet" href="http://localhost:1313/hugo-celadon/css/main.min.c4644293f401a7c4e646e9372e05c5d3c0865e8bc794eb824e83a6da274ade31.css" integrity="sha256-xGRCk/QBp8TmRuk3LgXF08CGXovHlOuCToOm2idK3jE=">
 
+<link rel="stylesheet" href="http://localhost:1313/hugo-celadon/vendor/katex/katex.min.css">
+<script defer src="http://localhost:1313/hugo-celadon/vendor/katex/katex.min.js"></script>
+<script defer src="http://localhost:1313/hugo-celadon/vendor/katex/auto-render.min.js"></script>
 
-<link rel="canonical" href="http://localhost:1313/tags/">
-
-
-<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-
-
-  
-  
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
-
-
-
-
-
-
-  
-    
-    
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
-  
-
-
-
- 
-
-
-
-
-<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
-
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
-
-
-<link rel="alternate" type="application/rss+xml" href="/tags/index.xml" title="johndoe" />
-
-
-
-
-
-
-
-
-</head>
-
-
-
-
-
-
-<body class="preload-transitions colorscheme-auto">
-  
-<div class="float-container">
-    <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
-    </a>
-</div>
-
-
-  <main class="wrapper">
-    <nav class="navigation">
-  <section class="container">
-    
-    <a class="navigation-title" href="http://localhost:1313/">
-      johndoe
-    </a>
-    
-    
-      <input type="checkbox" id="menu-toggle" />
-      <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
-      </label>
-      <ul class="navigation-list">
-        
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/about/">About</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/posts/">Blog</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/projects/">Projects</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="/contact/">Contact me</a>
-            </li>
-          
-        
-        
-          
-          
+  </head>
+  <body data-theme="light">
+    <div class="page-shell">
+      <nav class="morandi-nav">
+        <div class="brand">
+          <span class="dot"></span>
+          <a href="http://localhost:1313/hugo-celadon/">Grégoire Aubertin</a>
+        </div>
+        <div class="nav-links">
+          <a href="http://localhost:1313/hugo-celadon/">Home</a>
           
             
+            
+            
               
-                <li class="navigation-item menu-separator">
-                  <span>|</span>
-                </li>
-                
+                <a href="http://localhost:1313/hugo-celadon/#hero">About</a>
               
-              <li class="navigation-item">
-                <a href="/pt-br/tags/">🇧🇷</a>
-              </li>
             
           
+            
+            
+            
+              
+                <a href="http://localhost:1313/hugo-celadon/#news">News</a>
+              
+            
+          
+            
+            
+            
+              
+                <a href="http://localhost:1313/hugo-celadon/#research">Research</a>
+              
+            
+          
+            
+            
+            
+              
+                <a href="http://localhost:1313/hugo-celadon/#writing">Writing</a>
+              
+            
+          
+        </div>
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+          <span class="icon" data-icon-sun>☼</span>
+          <span class="icon" data-icon-moon>☾</span>
+        </button>
+      </nav>
+
+      <main class="main-container">
         
-      </ul>
-    
-  </section>
-</nav>
-
-
-    <div class="content">
-      
-  <section class="container list">
-  <header>
-    <h1 class="title">
-      <a class="title-link" href="http://localhost:1313/tags/">Tags</a>
-    </h1>
-  </header>
+  <h1>Tags</h1>
   
-  <ul>
-    
-  </ul>
+  
+    <h2><a href="/hugo-celadon/tags/code/">Code</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/viz/">Viz</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/math/">Math</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/statistics/">Statistics</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/algorithms/">Algorithms</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/python/">Python</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/data/">Data</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/fieldwork/">Fieldwork</a></h2>
+  
+    <h2><a href="/hugo-celadon/tags/hardware/">Hardware</a></h2>
   
 
+      </main>
 
-
-
-
-
-</section>
-
+      <footer class="site-footer">
+  <div class="footer-container">
+    &copy; 2026 Grégoire Aubertin • Powered by
+    <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &
+    <a href="https://github.com/Yajie-Xu/hugo-celadon" target="_blank" rel="noopener">Celadon</a>
+  </div>
+</footer>
 
     </div>
 
-    <footer class="footer">
-  <section class="container">
-    ©
+    <script>
+(function () {
+  const storageKey = "morandi-theme";
+  const body = document.body;
+  const toggleButtons = () =>
+    document.querySelectorAll("[data-theme-toggle]");
+
+  const applyTheme = (theme) => {
+    const nextTheme = theme === "dark" ? "dark" : "light";
+    body.setAttribute("data-theme", nextTheme);
+    toggleButtons().forEach((btn) => {
+      const sun = btn.querySelector("[data-icon-sun]");
+      const moon = btn.querySelector("[data-icon-moon]");
+      btn.setAttribute("aria-pressed", nextTheme === "dark");
+      if (sun) sun.style.opacity = nextTheme === "dark" ? "0" : "1";
+      if (moon) moon.style.opacity = nextTheme === "dark" ? "1" : "0";
+    });
+  };
+
+  const stored = localStorage.getItem(storageKey);
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  applyTheme(stored || (prefersDark ? "dark" : "light"));
+
+  toggleButtons().forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const next =
+        body.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      applyTheme(next);
+      localStorage.setItem(storageKey, next);
+    });
+  });
+})();
+
+(function () {
+  const wrappers = Array.from(document.querySelectorAll("[data-expandable]"));
+  if (!wrappers.length) return;
+
+  wrappers.forEach((wrapper) => {
+    const limit = parseInt(wrapper.dataset.limit, 10);
+    const content = wrapper.querySelector("[data-expandable-content]");
+    const toggle = wrapper.querySelector("[data-expand-toggle]");
+    if (!content || !Number.isFinite(limit)) return;
+    const items = Array.from(content.children);
+    if (items.length <= limit) {
+      if (toggle) toggle.remove();
+      return;
+    }
+
+    if (!toggle) return;
+
+    wrapper.dataset.state = "collapsed";
+    toggle.setAttribute("aria-expanded", "false");
+
+    const applyState = () => {
+      const expanded = wrapper.dataset.state === "expanded";
+      items.forEach((item, index) => {
+        const shouldHide = !expanded && index >= limit;
+        item.classList.toggle("hidden", shouldHide);
+      });
+      toggle.textContent = expanded ? "Show Less ↑" : "Show More ↓";
+      toggle.setAttribute("aria-expanded", expanded.toString());
+    };
+
+    toggle.addEventListener("click", () => {
+      wrapper.dataset.state =
+        wrapper.dataset.state === "expanded" ? "collapsed" : "expanded";
+      applyState();
+    });
+
+    applyState();
+  });
+})();
+</script>
+
+
+    <button id="scroll-top" aria-label="Go to Top">↑</button>
     
-      2019 -
-    
-    2026
-     John Doe 
-    ·
-    
-    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
-    
-  </section>
-</footer>
+    <script>
+      (function () {
+        const renderQueuedMath = () => {
+          const attempt = () => {
+            if (
+              typeof window !== "undefined" &&
+              typeof window.renderMathInElement === "function" &&
+              typeof window.katex !== "undefined"
+            ) {
+              window.renderMathInElement(document.body, {
+                delimiters: [
+                  { left: "$$", right: "$$", display: true },
+                  { left: "$", right: "$", display: false },
+                  { left: "\\(", right: "\\)", display: false },
+                  { left: "\\[", right: "\\]", display: true },
+                ],
+                throwOnError: false,
+              });
+              return true;
+            }
+            return false;
+          };
+          const tick = () => {
+            if (!attempt()) {
+              window.requestAnimationFrame(tick);
+            }
+          };
+          tick();
+        };
 
-  </main>
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", renderQueuedMath);
+        } else {
+          renderQueuedMath();
+        }
 
-  
+        document.querySelectorAll(".highlight").forEach(function (highlight) {
+          const codeBlock = highlight.querySelector("td.lntd:last-child pre code");
+          if (!codeBlock) return;
 
-  
-  
-  <script src="/js/coder.js"></script>
-  
+          const langClass = Array.from(codeBlock.classList).find((cls) =>
+            cls.startsWith("language-")
+          );
+          const label = langClass ? langClass.replace("language-", "").toUpperCase() : "CODE";
 
-  
+          const frame = document.createElement("div");
+          frame.className = "code-frame";
 
-  
+          const header = document.createElement("div");
+          header.className = "code-frame__header";
+          const langTag = document.createElement("span");
+          langTag.className = "code-frame__lang";
+          langTag.textContent = label;
+          header.appendChild(langTag);
 
-  
+          const button = document.createElement("button");
+          button.className = "copy-btn";
+          button.ariaLabel = "Copy code";
+          const iconClipboard = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+          `;
+          const iconCheck = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          `;
+          button.innerHTML = iconClipboard;
+          header.appendChild(button);
 
-  
+          const body = document.createElement("div");
+          body.className = "code-frame__body";
+          frame.appendChild(header);
+          frame.appendChild(body);
 
-  
+          const parent = highlight.parentNode;
+          highlight.classList.add("code-frame__table");
+          parent.replaceChild(frame, highlight);
+          body.appendChild(highlight);
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</body>
-
+          button.addEventListener("click", function () {
+            navigator.clipboard.writeText(codeBlock.innerText).then(function () {
+              button.classList.add("copied");
+              button.innerHTML = iconCheck;
+              setTimeout(function () {
+                button.classList.remove("copied");
+                button.innerHTML = iconClipboard;
+              }, 2000);
+            });
+          });
+        });
+      })();
+      (function () {
+        const btn = document.getElementById("scroll-top");
+        if (!btn) return;
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 300) {
+            btn.classList.add("show-scroll");
+          } else {
+            btn.classList.remove("show-scroll");
+          }
+        });
+        btn.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      })();
+    </script>
+  </body>
 </html>

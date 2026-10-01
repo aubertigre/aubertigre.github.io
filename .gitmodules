@@ -10,3 +10,6 @@
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/celadon"]
+	path = themes/celadon
+	url = https://github.com/Yajie-Xu/hugo-celadon.git
